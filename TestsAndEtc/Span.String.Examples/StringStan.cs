@@ -29,5 +29,10 @@
 
             return unique.Count();
         }
+
+        public static int GetUniqueWordsCount2(string input)
+        {
+            return input.Split(' ').Distinct().Count();
+        }
     }
 }
